@@ -18,8 +18,8 @@ public class bitwiseAND {
         int maxAnd = 0;
         int andResult = 0;
 
-        for(int A = 0; A < n; A++){
-            for(int B = A + 1; B < n; B++){
+        for(int A = 1; A <= n; A++){
+            for(int B = A + 1; B <= n; B++){
                 andResult = A & B;
                 if(andResult < k){
                     maxAnd = (maxAnd > andResult) ? maxAnd : andResult;

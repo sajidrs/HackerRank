@@ -33,7 +33,7 @@ public class SimpleTextEditor {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int noOfQueries = scan.nextInt();
         int choice = 0;
